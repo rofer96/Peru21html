@@ -1,0 +1,861 @@
+
+body{
+	font-family: 'Istok Web', sans-serif;	
+}
+
+
+/*--BUSCADOR--*/
+
+ #custom-search-form {
+        margin:0;
+        margin-top: 11px;
+        padding: 0;
+        margin-right: 68px;
+    }
+ 
+    #custom-search-form .search-query {
+    	font-size: 13px;
+    	background-color:#ededed;
+        padding-right: 18px;
+        padding-left: 11px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+    }
+ 
+    #custom-search-form button {
+    	width: 25px;
+		height: 25px;
+		background-color: #646473;
+        border: 0;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: -6px;
+        position: relative;
+        left: 0px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;    
+    }
+
+    	
+
+/*----Sociales---*/
+div.social{
+	width: 234px;
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+div.movil{
+	width: 180px;
+	float: left;
+	color: #fff;
+	overflow: hidden;
+	padding: 10px 0px 5px 0;
+}
+
+p.movil{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	background-color:#305d9e;
+	border-radius: 10px;
+	display: inline;
+	padding:3px 10px 3px 10px;
+
+}
+
+p.movil a{
+	color: #fff;
+}
+div.registro{
+	width: 100px;
+	display: block;
+	color: #fff;
+	float: left;
+	overflow: hidden;
+	padding: 10px 0px 5px 0;
+}
+
+p.registro a{
+	color: #fff;
+}
+p.registro a:hover{
+	color: #fff;
+}
+
+p.registro{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	background-color:#d9362d;
+	border-radius: 10px;
+	display: inline;
+	padding:3px 10px 3px 10px;
+
+}
+
+
+div.sesion{
+	width: 125px;
+	display: block;
+	color: #000;
+	float: left;
+	overflow: hidden;
+	padding:10px 10px 3px 10px;
+}
+
+p.sesion a{
+	color: #000;
+}
+p.sesion a:hover{
+	color: #000;
+}
+
+div.social{
+		display: inline;
+}
+div.social ul{
+	width: 200px;
+	height: 22px;
+}
+
+div.social a img{
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+div.social li{
+	list-style: none;
+}
+
+p.sesion{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	background-color:#fede74;
+	border-radius: 10px;
+	display: inline;
+	padding:3px 10px 3px 10px;
+}
+}
+
+div.buscador{
+	width: 215px;
+	float: left;
+	display: inline;
+}
+
+
+/*-----HEADER----*/
+
+div.container{
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+
+
+div.fecha{
+	
+	font-weight: bold;
+	color: #fff;
+	margin: 12px 30px 0 0;
+	float: right;
+}
+
+div.cabecera{
+	font-family: 'Istok Web', sans-serif;
+	background-color:#305d9e;
+	height: 95px;
+	margin: 20px 0 0 0;
+}
+
+h1.logo{
+	margin: 7px 0 0 0;
+}
+
+nav#main, nav#temas{
+	font-family: 'Istok Web', sans-serif;
+}
+
+nav#main{
+	width: 610px;
+	margin: 10px 0 0 0;
+}
+
+nav#main li{
+	font-weight: bold;
+	float: left;
+	margin: 10px 0 10px 3px;
+	list-style: none;
+}
+
+nav#main li a{
+	font-size: 14px;
+	color: #fff;
+	background-color:#535362;
+	padding: 10px 6px;
+}
+
+nav#main a.portada {
+	border-bottom: 5px solid #d9362d;
+}
+nav#main a.actualidad {
+	border-bottom: 5px solid #008c8c;
+}
+nav#main a.politica {
+	border-bottom: 5px solid #d9362d;
+}
+nav#main a.economia {
+	border-bottom: 5px solid #ff7a4d;
+}
+nav#main a.mundo {
+	border-bottom: 5px solid #7a4dff;
+}
+nav#main a.deportes {
+	border-bottom: 5px solid #00b22d;
+}
+nav#main a.espectaculos {
+	border-bottom: 5px solid #fa85fa;
+}
+
+
+nav#main a.portada:hover, nav#main a.portada:link, nav#main a.portada:visited, nav#main a.portada:active{
+	background-color:#d9362d;
+	text-decoration: none;
+}
+nav#main a:hover.actualidad {
+	background-color:#008c8c;
+	text-decoration: none;
+}
+nav#main a:hover.politica {
+	background-color:#d9362d;
+	text-decoration: none;
+}
+nav#main a:hover.economia {
+	background-color:#ff7a4d;
+	text-decoration: none;
+}
+nav#main a:hover.mundo {
+	background-color:#7a4dff;
+	text-decoration: none;
+}
+nav#main a:hover.deportes {
+	background-color:#00b22d;
+	text-decoration: none;
+}
+nav#main a:hover.espectaculos {
+	background-color:#fa85fa;
+	text-decoration: none;
+}
+
+
+/*-----END HEADER----*/
+
+/*-----CONTENIDO----*/
+
+p.temas{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding:15px 0 0 48px;
+}
+
+nav#temas{
+	padding: 15px 0 20px 0;
+}
+
+nav#temas li{
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 0;
+}
+
+nav#temas li a{
+	font-size: 14px;
+	font-weight: bold;
+	color:#000;
+	text-decoration: none;
+}
+
+nav#temas a.first{
+	color:#fff;
+	background-color:#d9362d;
+	padding: 5px;
+}
+
+nav#temas a.second{
+	color:#000;
+	background-color:#b9b9c8;
+	padding: 5px;
+}
+
+nav#temas a:hover.first{
+	text-decoration: underline; 
+	padding: 5px;
+}
+
+nav#temas a:hover.second{
+	text-decoration: underline;
+	padding: 5px;
+}
+
+
+/*-----LAS + DESTACADAS----*/
+
+h5.politica, h5.economia, h5.mundo{
+	font-family: 'Istok Web', sans-serif;
+}
+
+section.destacadas{
+	position: relative;
+}
+
+h5.politica{
+	font-weight: bold;
+	color:#d9362d;
+	border-bottom:1px solid #d9362d;
+}
+
+h5.economia{	
+	font-weight: bold;
+	color:#ff7a4d;
+	border-bottom:1px solid #ff7a4d;
+}
+
+h5.deportes{	
+	font-weight: bold;
+	color:#00b22d;
+	border-bottom:1px solid #00b22d;
+}
+
+h5.mundo{	
+	font-weight: bold;
+	color:#7a4dff;
+	border-bottom:1px solid #7a4dff;
+}
+
+
+h5.actualidad{	
+	font-weight: bold;
+	color:#d9362d;
+	border-bottom:1px solid #d9362d;
+}
+
+/*-----SUBTITULOS--*/
+
+h3.destacadas{
+	font-size: 24px;
+	font-weight: bolder;
+	border-bottom:7px solid #d9362d; 
+
+}
+
+h3.columnas, h3.blogs, h3.entrevista, h3.impresa, h3.heduardo, h3.chica, h3.otorongo{
+	color: #000;
+	font-size: 21px;
+	font-weight: bolder;
+	border-bottom:7px solid #305d9e;
+}
+
+h3.masleido{
+	font-size: 23px;
+	font-weight: bolder;
+	border-bottom:7px solid #009045;
+}
+
+
+h3.espectaculos{
+	font-size: 23px;
+	font-weight: bolder;
+	border-bottom:7px solid #fa85fa;
+}
+
+
+h3.vida{
+	font-size: 23px;
+	font-weight: bolder;
+	border-bottom:7px solid #4a9348;
+}
+
+
+
+/*-----END SUBTITULOS--*/
+
+h1.titular{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 36px;
+	font-weight:bold;
+	color: #fff;
+	text-shadow:3px 4px 4px rgba(0,0,0,0.85);
+	position: absolute;
+	top: 27px;
+	width: 237px;
+	overflow: hidden;
+	margin: 18px 0 0 10px;
+
+}
+
+h1.titular a{
+	color: #fff;
+	text-decoration-color:#fff;
+}
+
+article.principal{
+	height: 261px;
+}
+
+article.principal img{
+	width:100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+article.secundarias img{
+	width:100%;
+	height:100%;
+
+}
+
+
+h2.titular2{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	margin:10px 0 5px 0 !important;
+}
+
+h2.titular2 a{
+	color: #535362;
+}
+h2.titular2 a:hover{
+	color: #535362;
+}
+
+p.bajada{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 18px;
+
+}
+
+h3.titular3{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+h3.titular3 a{
+	color: #535362;
+}
+h3.titular3 a:hover{
+	color: #535362;
+}
+
+article.terciaria img{
+	width:100%;
+	height:100%;
+	margin: 0 0 9px 0;
+
+}
+
+
+/*---COLUMNAS--*/
+
+div.opinion{
+	font-family: 'Istok Web', sans-serif;
+	width: 140px;
+	height: 174px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: 0 5px 5px 0;
+	}
+div.opinion img{
+	width: 100%;
+	display: block;
+
+}
+
+div.opinion div.text{
+	background-color: #305d9e;
+	float: left;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	bottom: 44px;
+	width: 140px;
+	height: 52px;
+	padding: 5px;
+	}
+
+div.opinion div.text2{
+	background-color: #dddddd;
+	float: left;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	bottom: 4px;
+	width: 140px;
+}
+div.opinion p.nombre{
+	font-size: 13px;
+	font-weight: normal;
+	color: #6f6f6f;
+	margin: 0;
+	padding: 5px 0 0 5px;
+}
+
+div.opinion p.autor{
+	color: #666;
+	font-size: 13px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+
+div.opinion p.title{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 4px;
+	line-height: 18px;
+}
+
+div.opinion p.title a{
+	color: #fff;
+}
+
+/*-----LO MAS LEIDO----*/
+
+section.masleido ol{
+	padding: 5px 6px 0 27px;
+}
+section.masleido li{
+	font-size: 16px;
+}
+section.masleido a{
+	color: #666;
+}
+
+section.masleido a:hover{
+	color: #009045;
+}
+
+
+/*----ESPECTACULOS---*/
+
+section.espectaculos{
+
+	background-color: #6f6f6f;
+	height: 500px;
+}
+
+article.big{
+	font-family: 'Istok Web', sans-serif;
+	margin: 20px 0 0 0;
+}
+article.big img{
+	width:100%;
+}
+
+article.big h3{
+	font-size: 22px;
+	font-weight: bolder;
+	color: #fff;
+	margin: 10px 0;
+}
+
+article.big a{
+	color: #fff;
+}
+section.espectaculos p{
+	font-size: 16px;
+	color: #fff;
+}
+
+article.subnoticias{
+	width: 120px;
+	height: 180px;
+	float: left;
+	overflow: hidden;
+	margin: 0px 5px 0 0;
+	position: relative;
+	border-top: 1px dashed #fa85fa;
+	padding: 10px 0 0 0;
+}
+
+article.subnoticias a{
+	color: #fff;
+}
+
+article.last{
+	margin-right:0; 
+}
+article.subnoticias img{
+	width: 100%;
+}
+
+h6.big{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+div.video{
+	background-color: rgba(0,0,0,0.75);
+	position: absolute;
+	top: 40px;
+	border-radius: 5px;
+	padding: 4px 13px;
+	margin: 7px;
+}
+
+div.photo{
+	background-color: rgba(0,0,0,0.75);
+	position: absolute;
+	top: 138px;
+	border-radius: 5px;
+	padding: 2px 10px;
+	margin: 7px;
+
+}
+
+
+div.vida{
+	font-family: 'Istok Web', sans-serif;
+	width: 140px;
+	height: 174px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: 0 5px 5px 0;
+	}
+
+div.vida img{
+	width: 100%;
+	display: block;
+
+}
+
+
+
+div.vida div.text{
+	float: left;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	bottom: 7px;
+	width: 140px;
+	height: 67px;
+	padding: 5px;
+	}
+
+
+div.vida p.title{
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 4px;
+	line-height: 18px;
+	padding: 5px 0 0 0;
+}
+
+div.vida p.title a{
+	color: #666;
+}
+
+
+
+
+div.blog{
+	font-family: 'Istok Web', sans-serif;
+	width: 140px;
+	height: 174px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: 0 5px 5px 0;
+	}
+div.blog img{
+	width: 100%;
+	display: block;
+
+}
+
+
+
+div.blog div.text{
+	background-color: #305d9e;
+	float: left;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	bottom: 29px;
+	width: 140px;
+	height: 68px;
+	padding: 5px;
+	}
+
+div.blog div.text2{
+	background-color: #dddddd;
+	float: left;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	bottom: 4px;
+	width: 140px;
+	padding: 5px 0 0 0;
+	height: 25px;
+}
+div.blog p.nombre{
+	font-size: 13px;
+	font-weight: normal;
+	color: #6f6f6f;
+	margin: 0;
+	padding: 5px 0 0 5px;
+}
+
+div.blog p.autor{
+	color: #666;
+	font-size: 13px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+
+div.blog p.title{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 4px;
+	line-height: 18px;
+}
+
+div.blog p.title a{
+	color: #fff;
+}
+
+/*-----ASIDE----*/
+
+div.ad2{
+	margin: 20px 0 0 0;
+}
+
+
+h6.entrevista{
+	font-family: 'Istok Web', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 10px 0 0 0;
+}
+
+h6.entrevista a{
+	color: #000;
+}
+
+h6.entrevista a:hover{
+	color: #305d9e;
+}
+
+p.autorentrevista{
+	font-size: 14px;
+	color: #305d9e;
+	line-height: 18px;
+	font-weight: bold;
+	margin: 5px 0 0 0;
+
+}
+
+div.otorongo{
+	margin: 0px 0 0 10px;
+}
+
+div.impresa{
+	margin: 0px 0 0 10px;
+}
+
+div.heduardo{
+	margin: 0px 0 0 10px;
+}
+
+div.chica{
+	background-color:#305d9e;
+	margin: 0px 0 0 10px;
+	padding:9px 10px 1px 11px;
+}
+div.chica21 img{
+	width: 160px;
+	margin: 0 0 0 10px;
+}
+div.chica p{
+	color: #fff;
+}
+
+div.chica a{
+	color: #fff;
+}
+
+
+div.ad3{
+	margin: 20px 0 0 10px;
+}
+
+div.ad4{
+	margin: 20px 0 0 10px;
+}
+
+section.final{
+	background-color: #305d9e;
+}
+
+div.secciones{
+	padding: 10px 0 10px 30px;
+}
+p.secciones{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 0px 17px 38px;
+}
+
+div.secciones li{
+	font-family: 'Istok Web', sans-serif;
+	color: #fff;
+	list-style: none;
+}
+
+div.secciones li a{
+	color: #fff;
+}
+
+section.disclaimer{
+	font-family: 'Istok Web', sans-serif;
+	background-color: #213f6b;
+}
+
+p.copyright{
+	color: #fff;
+	margin: 10px 0 13px 50px;
+}
+
+p.redaccion{
+	color: #fff;
+	margin: 10px 0 13px 50px;
+}
