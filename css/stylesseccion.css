@@ -231,7 +231,7 @@ nav#main a.espectaculos {
 }
 
 
-nav#main a.portada:hover, nav#main a.portada:link, nav#main a.portada:visited, nav#main a.portada:active{
+nav#main a.portada:hover{
 	background-color:#d9362d;
 	text-decoration: none;
 }
@@ -255,7 +255,7 @@ nav#main a:hover.deportes {
 	background-color:#00b22d;
 	text-decoration: none;
 }
-nav#main a:hover.espectaculos{
+nav#main a:hover.espectaculos, nav#main a.espectaculos:link, nav#main a.espectaculos:visited, nav#main a.espectaculos:active{
 	background-color:#fa85fa;
 	text-decoration: none;
 }
@@ -265,93 +265,6 @@ nav#main a:hover.espectaculos{
 
 /*-----CONTENIDO----*/
 
-p.temas{
-	font-family: 'Istok Web', sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	padding:15px 0 0 48px;
-}
-
-nav#temas{
-	padding: 15px 0 20px 0;
-}
-
-nav#temas li{
-	float: left;
-	list-style: none;
-	margin: 0 10px 0 0;
-}
-
-nav#temas li a{
-	font-size: 14px;
-	font-weight: bold;
-	color:#000;
-	text-decoration: none;
-}
-
-nav#temas a.first{
-	color:#fff;
-	background-color:#d9362d;
-	padding: 5px;
-}
-
-nav#temas a.second{
-	color:#000;
-	background-color:#b9b9c8;
-	padding: 5px;
-}
-
-nav#temas a:hover.first{
-	text-decoration: underline; 
-	padding: 5px;
-}
-
-nav#temas a:hover.second{
-	text-decoration: underline;
-	padding: 5px;
-}
-
-
-/*-----LAS + DESTACADAS----*/
-
-h5.politica, h5.economia, h5.mundo{
-	font-family: 'Istok Web', sans-serif;
-}
-
-section.destacadas{
-	position: relative;
-}
-
-h5.politica{
-	font-weight: bold;
-	color:#d9362d;
-	border-bottom:1px solid #d9362d;
-}
-
-h5.economia{	
-	font-weight: bold;
-	color:#ff7a4d;
-	border-bottom:1px solid #ff7a4d;
-}
-
-h5.deportes{	
-	font-weight: bold;
-	color:#00b22d;
-	border-bottom:1px solid #00b22d;
-}
-
-h5.mundo{	
-	font-weight: bold;
-	color:#7a4dff;
-	border-bottom:1px solid #7a4dff;
-}
-
-
-h5.actualidad{	
-	font-weight: bold;
-	color:#d9362d;
-	border-bottom:1px solid #d9362d;
-}
 
 /*-----SUBTITULOS--*/
 
@@ -474,89 +387,6 @@ article.terciaria img{
 }
 
 
-/*---COLUMNAS--*/
-
-div.opinion{
-	font-family: 'Istok Web', sans-serif;
-	width: 140px;
-	height: 174px;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	margin: 0 5px 5px 0;
-	}
-div.opinion img{
-	width: 100%;
-	display: block;
-
-}
-
-div.opinion div.text{
-	background-color: #305d9e;
-	float: left;
-	display: block;
-	overflow: hidden;
-	position: absolute;
-	bottom: 44px;
-	width: 140px;
-	height: 52px;
-	padding: 5px;
-	}
-
-div.opinion div.text2{
-	background-color: #dddddd;
-	float: left;
-	display: block;
-	overflow: hidden;
-	position: absolute;
-	bottom: 4px;
-	width: 140px;
-}
-div.opinion p.nombre{
-	font-size: 13px;
-	font-weight: normal;
-	color: #6f6f6f;
-	margin: 0;
-	padding: 5px 0 0 5px;
-}
-
-div.opinion p.autor{
-	color: #666;
-	font-size: 13px;
-	font-weight: bolder;
-	margin: 0;
-	padding: 0 0 0 5px;
-}
-
-div.opinion p.title{
-	color: #fff;
-	font-size: 14px;
-	font-weight: bold;
-	margin: 4px;
-	line-height: 18px;
-}
-
-div.opinion p.title a{
-	color: #fff;
-}
-
-/*-----LO MAS LEIDO----*/
-
-section.masleido ol{
-	padding: 5px 6px 0 27px;
-}
-section.masleido li{
-	font-size: 16px;
-}
-section.masleido a{
-	color: #666;
-}
-
-section.masleido a:hover{
-	color: #009045;
-}
-
-
 /*----ESPECTACULOS---*/
 
 section.espectaculos{
@@ -637,121 +467,12 @@ div.photo{
 }
 
 
-div.vida{
-	font-family: 'Istok Web', sans-serif;
-	width: 140px;
-	height: 174px;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	margin: 0 5px 5px 0;
-	}
-
-div.vida img{
-	width: 100%;
-	display: block;
-
-}
-
-
-
-div.vida div.text{
-	float: left;
-	display: block;
-	overflow: hidden;
-	position: absolute;
-	bottom: 7px;
-	width: 140px;
-	height: 67px;
-	padding: 5px;
-	}
-
-
-div.vida p.title{
-	color: #666;
-	font-size: 14px;
-	font-weight: bold;
-	margin: 4px;
-	line-height: 18px;
-	padding: 5px 0 0 0;
-}
-
-div.vida p.title a{
-	color: #666;
-}
-
-
-
-
-div.blog{
-	font-family: 'Istok Web', sans-serif;
-	width: 140px;
-	height: 174px;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	margin: 0 5px 5px 0;
-	}
-div.blog img{
-	width: 100%;
-	display: block;
-
-}
-
-
-
-div.blog div.text{
-	background-color: #305d9e;
-	float: left;
-	display: block;
-	overflow: hidden;
-	position: absolute;
-	bottom: 29px;
-	width: 140px;
-	height: 68px;
-	padding: 5px;
-	}
-
-div.blog div.text2{
-	background-color: #dddddd;
-	float: left;
-	display: block;
-	overflow: hidden;
-	position: absolute;
-	bottom: 4px;
-	width: 140px;
-	padding: 5px 0 0 0;
-	height: 25px;
-}
-div.blog p.nombre{
-	font-size: 13px;
-	font-weight: normal;
-	color: #6f6f6f;
-	margin: 0;
-	padding: 5px 0 0 5px;
-}
-
-div.blog p.autor{
-	color: #666;
-	font-size: 13px;
-	font-weight: bolder;
-	margin: 0;
-	padding: 0 0 0 5px;
-}
-
-div.blog p.title{
-	color: #fff;
-	font-size: 14px;
-	font-weight: bold;
-	margin: 4px;
-	line-height: 18px;
-}
-
-div.blog p.title a{
-	color: #fff;
-}
 
 /*-----ASIDE----*/
+
+aside.publi{
+	padding: 0 0 0 6px;
+}
 
 div.ad2{
 	margin: 20px 0 0 0;
@@ -862,7 +583,6 @@ p.redaccion{
 
 
 
-
 /*-----STYLES-SECCION-----*/
 
 
@@ -870,7 +590,10 @@ div.espectaculoscabecera{
 	font-family: 'Istok Web', sans-serif;
 	background-color:#b90b86;
 	color: #fff; 
-	padding:5px 0 0 0; 
+	padding:5px 0 0 0;
+	position: relative;
+	height: 127px;
+
 }
 
 div.espectaculoscabecera h1{
@@ -878,6 +601,283 @@ div.espectaculoscabecera h1{
 	border-bottom: 4px solid #fff;
 }
 
-nav.espectaculosmain ul{
+nav.espectaculosmain{
+	width: 682px;
+	height: 43px;
+	margin: 14px 0 0px 0px;
+	position: absolute;
+	top: 48px;
+	left: -29px;
+}
 
+nav.espectaculosmain ul{
+	margin: 20px 0 0 0;
+	width: auto;
+}
+nav.espectaculosmain li{
+	width: auto;
+	list-style: none;
+	float: left;
+	display: block;
+	margin: 5px 0px 5px 0px;
+	border-right: 1px dotted #fff;
+}
+
+nav.espectaculosmain li.last{
+	border-right: none;
+}
+
+nav.espectaculosmain a{
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 15px;
+}
+
+nav.espectaculosmain a:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #cf60ae;
+}
+
+
+
+article.carrusel{
+	width: auto;
+	height: 379px;
+	padding: 0;
+}
+
+div.foto1{
+	width: 476px;
+	height: 377px;
+	float: left;
+	display: inline;
+}
+
+div.titular{
+	width: 294px;
+	height: 377px;
+	float: left;
+	display: inline;
+	background-color: #626262;
+}
+
+div.foto1 img{
+	width: 100%;
+
+}
+
+article.carrusel h2{
+	color: #fff;
+	font-weight: bold;
+	margin: 20px;
+}
+
+article.carrusel p{
+	color: #fff;
+	font-weight: normal;
+	margin: 20px;
+}
+
+article.carrusel ul{
+	width: 230px;
+	height: 50px;
+	margin: 76px 50px 0 70px;
+}
+
+article.carrusel li{
+	list-style: none;
+	float: left;
+	display: block;
+	color: #fff;
+
+}
+
+article.carrusel a{
+	color: #fff;
+	font-weight: bold;
+	background-color: #cf60ae;
+	padding: 5px 10px;
+	margin: 0 12px 0 0;
+	text-decoration: none;
+}
+
+article.carrusel a:hover{	
+	background-color:#b90b86;
+}
+
+
+div.primeras{
+	float: left;
+	padding: 0;
+}
+
+
+
+article.titulares{
+	width: 379px;
+	margin: 5px 0 10px 0;
+	padding: 0;
+	border-bottom: 1px solid #b90b86;	
+}
+
+article.last{
+	border-bottom:none;	
+}
+
+h5.hollywood{
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #cf60ae;
+	margin: 10px 0 20px 0;
+	padding: 5px 10px;
+	width: 100px;
+}
+
+ h5.series{
+ 	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #cf60ae;
+	margin: 10px 0 20px 0;
+	padding: 5px 10px;
+	width: 80px;
+ }
+
+ h5.tv{
+ 	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #cf60ae;
+	margin: 10px 0 20px 0;
+	padding: 5px 10px;
+	width: 43px;
+ }
+
+ h5.cine{
+ 	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #cf60ae;
+	margin: 10px 0 20px 0;
+	padding: 5px 10px;
+	width: 56px;
+ }
+
+  h5.musica{
+ 	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #cf60ae;
+	margin: 10px 0 20px
+	 0;
+	padding: 5px 10px;
+	width: 73px;
+ }
+
+
+
+article.titulares h2{
+	margin: 15px 0 5px 0;
+}
+
+article.titulares h2 a{
+	color: #000;
+}
+article.titulares img{
+	width: 100%;
+	height: 100%;
+	padding: 5px 5px 5px 0;
+	margin: 5px 0 10px 0;
+}
+
+
+
+article.secundarios img{
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+
+article.secundarios h4{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+article.secundarios h4 a{
+	color: #000;
+}
+
+/*---VIDEOS---*/
+
+
+
+section.videos{
+	padding: 0;
+	background-color:#e4e4e4;
+	height: 313px;
+	margin: 0 0 23px 0;
+
+}
+
+article.videoprincipal{
+	width: 415px;
+	position: relative;
+}
+
+article.videoprincipal img{
+	width: 100%;
+	height: 100%;
+	margin: 0 0 0 20px;
+	padding: 0 24px 0 0;
+}
+
+h4.videotitulo{
+	margin: 10px 0 0 19px;
+	font-size: 21px;
+}
+h5.videos{
+	color: #305d9e;
+	font-size: 20px;
+	font-weight: bolder;
+	border-bottom: 4px solid #305d9e;
+	margin: 15px 0 10px 18px;
+}
+
+div.secundario{
+	margin: 51px 0 0 0;
+	height: 250px;
+	float: left;	
+}
+article.extra{
+	width: 184px;
+	position: relative;
+}
+
+article.extra img{
+	width: 100%;
+	height: 100%;
+	margin: 3px 0 0 0;
+}
+
+p.texto{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 18px;
+	margin: 15px 0 21px 0;
+}
+p.bajadavideo{
+	font-size: 17px;
+	margin: 5px 0 0 0;
+}
+
+div.videoespec{
+	background-color: rgba(0,0,0,0.75);
+	position: absolute;
+	top: 40px;
+	border-radius: 5px;
+	padding:2px 13px 7px;
+	margin: 7px;
 }
